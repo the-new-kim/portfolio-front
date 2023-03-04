@@ -1,0 +1,11 @@
+Model Information:
+* title:	LEGO block 2x4 (1985 +)
+* source:	https://sketchfab.com/3d-models/lego-block-2x4-1985-d9db0ec3cffb4c3a99a4b71b2644b586
+* author:	Joebuz33 (https://sketchfab.com/Joebuz33)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "LEGO block 2x4 (1985 +)" (https://sketchfab.com/3d-models/lego-block-2x4-1985-d9db0ec3cffb4c3a99a4b71b2644b586) by Joebuz33 (https://sketchfab.com/Joebuz33) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

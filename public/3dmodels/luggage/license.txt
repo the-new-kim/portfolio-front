@@ -1,0 +1,11 @@
+Model Information:
+* title:	Week 15 - Luggage Bake V2
+* source:	https://sketchfab.com/3d-models/week-15-luggage-bake-v2-cd4dba634164441f850f42933885ea71
+* author:	KoteTheCat (https://sketchfab.com/KoteTheCat)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Week 15 - Luggage Bake V2" (https://sketchfab.com/3d-models/week-15-luggage-bake-v2-cd4dba634164441f850f42933885ea71) by KoteTheCat (https://sketchfab.com/KoteTheCat) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
