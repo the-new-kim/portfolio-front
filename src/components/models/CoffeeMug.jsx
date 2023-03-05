@@ -20,12 +20,12 @@ export function CoffeeMug(props) {
     if (!ref.current) return;
     ref.current.rotation.x -= 0.005;
     ref.current.rotation.y += 0.001;
-    ref.current.rotation.z -= 0.01;
+    ref.current.rotation.z -= 0.009;
   });
   return (
     <group ref={ref} {...props} dispose={null}>
       <group
-        position={[6, -1, 0]}
+        position={[7, -1, 0]}
         rotation={[Math.PI / 2, 0, Math.PI]}
         scale={0.1}
       >

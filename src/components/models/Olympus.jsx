@@ -20,7 +20,7 @@ export function Olympus(props) {
     if (!ref.current) return;
     ref.current.rotation.x -= 0.005;
     ref.current.rotation.y += 0.001;
-    ref.current.rotation.z -= 0.01;
+    ref.current.rotation.z += 0.01;
   });
   return (
     <group ref={ref} {...props} dispose={null}>

@@ -9,21 +9,31 @@ Title: Week 15 - Luggage Bake V2
 
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export function Luggage(props) {
+  const [clicked, setClicked] = useState(false);
   const { nodes, materials } = useGLTF("3dmodels/luggage/luggage.gltf");
 
   const ref = useRef();
 
   useFrame(() => {
-    if (!ref.current) return;
+    if (!ref.current || clicked) return;
     ref.current.rotation.x += 0.001;
     ref.current.rotation.y += 0.01;
     ref.current.rotation.z += 0.002;
   });
+
   return (
-    <group ref={ref} {...props} dispose={null}>
+    <group
+      ref={ref}
+      {...props}
+      dispose={null}
+      onClick={(e) => {
+        e.stopPropagation();
+        setClicked((prev) => !prev);
+      }}
+    >
       <group position={[0, 0, -5]}>
         <mesh
           geometry={nodes.luggage_1_low_luggage_HP_v2plastic_black_0.geometry}

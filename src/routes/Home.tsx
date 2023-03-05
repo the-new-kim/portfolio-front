@@ -1,22 +1,19 @@
-import { Link } from "react-router-dom";
 import Section from "../components/Section";
-
-const works = [
-  { title: "Toy shop", slug: "toy-shop" },
-  { title: "Melanchthon", slug: "melanchthon" },
-  { title: "Arthen Kommunikation", slug: "arthen-kommunikation" },
-  { title: "Coin Tracker", slug: "coin-tracker" },
-  { title: "Ambient sound player", slug: "ambient-sound-player" },
-  { title: "Una Kim", slug: "una-kim" },
-];
+import { sections } from "../libs/fakeData";
 
 export default function Home() {
   return (
     <>
-      {works.map((work, index) => (
-        <Section key={index}>{work.title}</Section>
+      {sections.map((section, index) => (
+        <Section
+          key={index}
+          section={section}
+          sectionIndex={index}
+          sectionsLength={sections.length}
+        />
+
         // <Link
-        //   to={`/works/${work.slug}`}
+        //   to={`/sections/${work.slug}`}
         //   key={index}
         //   className="text-9xl my-3 z-50"
         // >

@@ -18,7 +18,7 @@ export function Croissant(props) {
 
   useFrame(() => {
     if (!ref.current) return;
-    ref.current.rotation.x += 0.01;
+    ref.current.rotation.x -= 0.01;
     ref.current.rotation.y += 0.001;
   });
   return (

@@ -1,8 +1,8 @@
-import { OrbitControls } from "@react-three/drei";
-import { Canvas, useFrame, useThree } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 import { useScroll, useTime, useTransform } from "framer-motion";
 import { degreesToRadians } from "popmotion";
-import { Suspense } from "react";
+import { useState } from "react";
+
 import { Ball } from "../models/Ball";
 import { CoffeeMug } from "../models/CoffeeMug";
 import { Croissant } from "../models/Croissant";
@@ -18,7 +18,7 @@ export default function BackgroundScene() {
   const yAngle = useTransform(
     scrollYProgress,
     [0, 1],
-    [0.001, degreesToRadians(360)]
+    [0.001, degreesToRadians(180)]
   );
 
   const distance = useTransform(scrollYProgress, [0, 1], [10, 15]);

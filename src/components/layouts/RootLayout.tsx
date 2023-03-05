@@ -19,7 +19,7 @@ export default function RootLayout() {
         ref={containerRef}
         // className="fixed top-0 left-0 w-full h-screen overflow-y-auto snap-mandatory snap-y"
       >
-        <main className="flex flex-col z-10 text-white mix-blend-difference">
+        <main className="flex flex-col z-10">
           <Outlet />
         </main>
       </div>
