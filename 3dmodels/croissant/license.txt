@@ -1,0 +1,11 @@
+Model Information:
+* title:	Croissant
+* source:	https://sketchfab.com/3d-models/croissant-352b485c757f48c19a45a30ac0077489
+* author:	chaeseoyeong (https://sketchfab.com/chaeseoyeong)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Croissant" (https://sketchfab.com/3d-models/croissant-352b485c757f48c19a45a30ac0077489) by chaeseoyeong (https://sketchfab.com/chaeseoyeong) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
